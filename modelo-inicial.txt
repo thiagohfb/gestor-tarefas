@@ -1,0 +1,32 @@
+Tarefa
+- código
+- título
+- descrição
+- estimativa de horas
+- concluída
+- data-limite
+- custo estimado
+- responsável
+
+Responsavel
+- matrícula
+- nome
+- ativo
+
+AplicacaoGestorTarefas
+- iniciar o programa
+- criar os objetos iniciais
+
+
+
+Classe: AplicacaoGestorTarefas
+Pacote: br.com.curso.tarefas
+Responsabilidade: iniciar o programa e criar os objetos iniciais
+
+Classe: Tarefa
+Pacote: br.com.curso.tarefas.dominio
+Responsabilidade: representar uma tarefa
+
+Classe: Responsavel
+Pacote: br.com.curso.tarefas.dominio
+Responsabilidade: representar uma pessoa responsável
