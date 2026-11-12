@@ -12,3 +12,7 @@ Descrição: Gestor de tarefas em Java para praticar Git.
 - Cadastro de responsáveis
 - Cadastro de tarefas comuns e urgentes
 - Busca de tarefa por código
+- 
+## Autoria
+
+Projeto didático mantido por Thiago Henrique.
