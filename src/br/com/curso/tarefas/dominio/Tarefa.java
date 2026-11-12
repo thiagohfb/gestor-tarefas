@@ -21,6 +21,7 @@ public class Tarefa {
         }
 
         emAndamento = true;
+        
         return true;
     }
 
@@ -114,5 +115,9 @@ public class Tarefa {
 
     public String obterNomeResponsavel() {
         return responsavel.obterNome();
+    }
+
+     public String obterDescricao() {
+        return descricao;
     }
 }
