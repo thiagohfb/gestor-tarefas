@@ -21,7 +21,7 @@ public class Tarefa {
         }
 
         emAndamento = true;
-        
+
         return true;
     }
 
@@ -117,7 +117,11 @@ public class Tarefa {
         return responsavel.obterNome();
     }
 
-     public String obterDescricao() {
+    public String obterDescricao() {
         return descricao;
+    }
+
+    public LocalDate obterDataLimite() {
+        return dataLimite;
     }
 }
