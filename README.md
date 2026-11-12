@@ -1,16 +1,8 @@
 # Gestor de Tarefas
 
-Projeto do curso de Java: cadastro e acompanhamento de tarefas por linha de comando.
+Descrição: Gestor de tarefas em Java para praticar Git.
 
-## Funcionalidades
+## Como executar
 
-- Cadastro de responsável
-- Tarefas comuns e urgentes
-- Busca por código e por prioridade
-
-## Como compilar e executar
-
-```bash
-javac -d out src/br/com/curso/tarefas/dominio/*.java src/br/com/curso/tarefas/AplicacaoGestorTarefas.java
-java -cp out br.com.curso.tarefas.AplicacaoGestorTarefas
-```
+1. Compile com javac, gerando as classes na pasta out.
+2. Execute a classe br.com.curso.tarefas.AplicacaoGestorTarefas.
