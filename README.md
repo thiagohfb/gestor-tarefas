@@ -1,6 +1,6 @@
 # Gestor de Tarefas
 
-Descrição: Gestor de tarefas urgentes e comuns, desenvolvido em Java.
+Descrição: Gestor de tarefas comuns e urgentes para acompanhar o trabalho de uma equipe.
 
 ## Como executar
 
