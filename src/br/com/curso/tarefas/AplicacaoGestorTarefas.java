@@ -5,6 +5,7 @@ import java.time.LocalDate;
 
 import br.com.curso.tarefas.dominio.Responsavel;
 import br.com.curso.tarefas.dominio.Tarefa;
+import br.com.curso.tarefas.dominio.TarefaComum;
 
 public class AplicacaoGestorTarefas {
 
@@ -17,7 +18,7 @@ public class AplicacaoGestorTarefas {
         System.out.println("Matrícula: " + responsavel.obterMatricula());
         System.out.println("Ativo: " + responsavel.estaAtivo());
 
-        Tarefa tarefaRevisarRequisitos = new Tarefa();
+        Tarefa tarefaRevisarRequisitos = new TarefaComum();
         tarefaRevisarRequisitos.cadastrar(
                 "TAR-001",
                 "Revisar requisitos",
@@ -27,7 +28,7 @@ public class AplicacaoGestorTarefas {
                 new BigDecimal("150.00"),
                 responsavel);
 
-        Tarefa tarefaImplementarTela = new Tarefa();
+        Tarefa tarefaImplementarTela = new TarefaComum();
         tarefaImplementarTela.cadastrar(
                 "TAR-002",
                 "Implementar a tela inicial",
@@ -37,7 +38,7 @@ public class AplicacaoGestorTarefas {
                 new BigDecimal("300.00"),
                 responsavel);
 
-        Tarefa tarefaValidarAplicacao = new Tarefa();
+        Tarefa tarefaValidarAplicacao = new TarefaComum();
         tarefaValidarAplicacao.cadastrar(
                 "TAR-003",
                 "Validar a aplicação",
