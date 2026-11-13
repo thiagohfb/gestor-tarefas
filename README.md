@@ -1,6 +1,6 @@
 # Gestor de Tarefas
 
-Descrição: Gestor de tarefas em Java para praticar Git.
+Descrição: Gestor de tarefas urgentes e comuns, desenvolvido em Java.
 
 ## Como executar
 
