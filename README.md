@@ -16,3 +16,12 @@ Descrição: Gestor de tarefas em Java para praticar Git.
 ## Autoria
 
 Projeto didático mantido por Thiago Henrique.
+
+
+## Próximos passos
+
+- Contar tarefas por situação
+- Listar tarefas por responsável
+git switch main
+git add README.md
+git commit -m "Registra proximos passos no README."
