@@ -50,6 +50,18 @@ public class GestorTarefas {
         }
     }
 
+    public int contarConcluidas() {
+        int quantidade = 0;
+
+        for (Tarefa tarefa : tarefas) {
+            if (tarefa.estaConcluida()) {
+                quantidade++;
+            }
+        }
+
+        return quantidade;
+    }    
+
     public void exibirTarefasDoResponsavel(String matricula) {
         for (Tarefa tarefa : tarefas) {
             if (tarefa.possuiResponsavel(matricula)) {
