@@ -59,6 +59,7 @@ public class GestorTarefas {
             }
         }
 
+        System.out.println("contarConcluidas");
         return quantidade;
     }    
 
